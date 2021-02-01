@@ -1,0 +1,33 @@
+# ignore everything
+*
+
+# whitelist
+# !/directory: whitelist a directory
+# !/directory/*: whitelist files under directory
+# !/directory/**/*: whitelist subdirectories
+
+!/dockerll
+!/dockerll/*
+!/dockerll/**/*
+!/scripts
+!/scripts/*
+!/scripts/**/*
+!/tests
+!/tests/*
+!/tests/**/*
+!.dockerignore
+!.gitignore
+!docker-compose.yml
+!Dockerfile
+!Makefile
+!poetry.lock
+!pyproject.toml
+!README.md
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
